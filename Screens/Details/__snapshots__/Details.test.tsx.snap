@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the detail screen should match snapshot 1`] = `
+<View>
+  <RCTScrollView
+    testID="detail-scroll"
+  >
+    <View>
+      <View>
+        <Image
+          resizeMode="cover"
+          source={
+            {
+              "uri": "",
+            }
+          }
+          style={
+            {
+              "height": 667,
+              "width": "100%",
+            }
+          }
+          testID="item-image"
+        />
+      </View>
+      <View
+        style={
+          {
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "Inter-Bold",
+              "fontSize": 24,
+            }
+          }
+        >
+          This is orphnage
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Inter-Medium",
+              "fontSize": 18,
+            }
+          }
+        >
+          London
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Inter-Medium",
+              "fontSize": 18,
+              "marginVertical": 16,
+            }
+          }
+        >
+          this is just the test description
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#007BFF",
+        "borderRadius": 25,
+        "height": 48,
+        "justifyContent": "center",
+        "margin": 16,
+        "opacity": 1,
+        "width": "90%",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Donate
+    </Text>
+  </View>
+</View>
+`;
